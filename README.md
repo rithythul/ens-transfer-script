@@ -50,3 +50,23 @@ Transfer transaction: {
   4 passing (
 
 ```
+
+It requires around 0.02 ETH in order to work.
+
+## Run the script 
+
+First, ```cp mv .env.example .evn```, then add yours
+
+### Rust the test 
+
+```npm test```
+
+### Run the script
+
+```chmod +x transfer.js```
+
+```node transfer.js```
+
+## Note
+
+For best practice we should not use .env, but I am in a rust and can't be borther for this one.
